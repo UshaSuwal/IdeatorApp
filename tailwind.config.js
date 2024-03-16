@@ -1,4 +1,5 @@
 const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: [
     './app/views/**/*.html.erb',
@@ -13,6 +14,7 @@ module.exports = {
       'pacifico': ['Pacifico', 'sans-serif']
     },
     'colors': {
+      ...colors,
       'primary': {
         500: '#337ab7'
       }
