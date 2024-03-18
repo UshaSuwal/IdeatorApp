@@ -8,7 +8,11 @@ export default class extends Controller {
     this.initializeModal();
     this.modal.show();
   }
+  hide(){
+    this.modal.hide();
+  }
   initializeModal() {
     this.modal = new Modal(this.modalTarget);
+    
   }
 }
