@@ -1,5 +1,5 @@
 import { Application } from "@hotwired/stimulus"
-
+import "flowbite/dist/flowbite.turbo.js";
 const application = Application.start()
 
 // Configure Stimulus development experience
